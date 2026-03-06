@@ -1,0 +1,10 @@
+Item,Cantidad,Costo;;;
+Laptop,2,1500;;;Categoría,Subcategoría,Monto aprobado (CRC),Monto ejecutado (CRC),Responsable,Observaciones
+Servidor,1,3000;;;"Infraestructura,Servidores/Backup,850000,849000,Lucía Paniagua,""Pagado a 'NeuralBytes S.A.', se adelantó por mantenimiento inesperado"""
+;;;"Software,Licencias seguridad,500000,500000,Daniel Céspedes,""Compra de módulos adicionales para 'EvidSecure v3.2'"""
+;;;"Investigación y Desarrollo,IA Jurídica,1200000,1295000,Andrea Varela,""Sobrepasó presupuesto: integración con LexBase judicial"""
+;;;"Personal,Consultores legales,675000,675000,Dr. Mauro González,""Contratación externa validada por junta legal"""
+;;;"Adquisiciones,Dispositivos externos,250000,231500,Laura Jiménez,""Incluye el USB Lexa-08, comprado el 02/07/2025"""
+;;;"Viajes,Investigación jurídica,340000,316000,Karla Ramírez,""Gira judicial a Tribunal Digital en San José"""
+;;;"Comunicaciones,Foros académicos,150000,148500,Equipo Legal,""Participación en HackJudex 2025"""
+;;;"Otros,Imprevistos,300000,125000,Contabilidad interna,""Rubro no completamente justificado – requiere auditoría"""
