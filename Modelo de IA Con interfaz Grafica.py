@@ -15,7 +15,7 @@ def linear_regression(X, Y):    # funccion para calcular la recta de regresion
     x_mean = sum(X) / n         #calcula la media de X
     y_mean = sum(Y) / n         #calcula la media de Y
     num = sum((X[i] - x_mean) * (Y[i] - y_mean) for i in range(n)) #Calcula el numerador de la fórmula de la pendiente.
-    den = sum((X[i] - x_mean) ** 2 for i in range(n))               #den = sum((X[i] - x_mean) ** 2 for i in range(n))
+    den = sum((X[i] - x_mean) ** 2 for i in range(n))               
     m = num / den                                                   #Calcula la pendiente de la recta.
     b = y_mean - m * x_mean                                         #Calcula la intersección con el eje Y.
     return m, b                                                     #Devuelve la pendiente y el intercepto m y b
@@ -257,3 +257,4 @@ class AIApp: #Clase que define toda la aplicacion
 root = tk.Tk()  #crea la ventana principal
 app = AIApp(root) #Inicialos la Aplicaion con las Funciones crradas anteriormente
 root.mainloop() #mantiene la ventana abierta sin cerrarse
+
